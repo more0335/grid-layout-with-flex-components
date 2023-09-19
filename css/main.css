@@ -6,7 +6,7 @@ body {
 .emojis {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 1rem;
 }
 
 .emoji {
@@ -29,13 +29,11 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
-
-    /* margin: auto; */
-
-    /* display: flex;
-    align-items: flex-end; */
 }
   
 .icon {
     font-size: 4rem;
+    
+    align-self: center;
+    order: -1;
 }
